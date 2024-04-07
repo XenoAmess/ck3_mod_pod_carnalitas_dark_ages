@@ -2583,7 +2583,7 @@ POD_dominate_interaction = {
 			if = {
 				show_as_tooltip = {
                     scope:actor = {
-                        scope:recipient {
+                        scope:recipient = {
                             custom_tooltip = POD_dominate_interaction_have_crazy_sex_with_me_option_ct
                         }
                         # pay money for prostitution, and possibly lose piety if your faith dislikes this
@@ -2770,7 +2770,7 @@ POD_dominate_interaction = {
 				}
                 hidden_effect = {
                     scope:actor = {
-                        scope:recipient {
+                        scope:recipient = {
                             custom_tooltip = POD_dominate_interaction_have_crazy_sex_with_me_option_ct
                         }
                         # pay money for prostitution, and possibly lose piety if your faith dislikes this
@@ -5299,9 +5299,9 @@ POD_dominate_self_interaction = {
             if = {
                 show_as_tooltip = {
                     scope:actor = {
-                         scope:secondary_actor {
-                             custom_tooltip = POD_dominate_interaction_have_crazy_sex_with_me_option_ct
-                         }
+                        scope:secondary_actor = {
+                            custom_tooltip = POD_dominate_interaction_have_crazy_sex_with_me_option_ct
+                        }
                         # pay money for prostitution, and possibly lose piety if your faith dislikes this
                         #if = {
                         #    limit = {
@@ -5486,7 +5486,7 @@ POD_dominate_self_interaction = {
                 }
                 hidden_effect = {
                     scope:actor = {
-                        scope:secondary_actor {
+                        scope:secondary_actor = {
                             custom_tooltip = POD_dominate_interaction_have_crazy_sex_with_me_option_ct
                         }
                         # pay money for prostitution, and possibly lose piety if your faith dislikes this
