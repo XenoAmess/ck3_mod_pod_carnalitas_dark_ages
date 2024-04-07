@@ -94,3 +94,5 @@ out
 
 #versions-maven-plugin
 *.versionsBackup
+
+*.ffs_db
